@@ -10,7 +10,7 @@ jobs:
             chmod 0600 /tmp/ssh-key; \
             eval `ssh-agent -s`; \
             ssh-add /tmp/ssh-key; \
-            ssh -o StrictHostKeyChecking=no root@server.talk-about-it.ca "cd /var/www; \
+            ssh -A -o StrictHostKeyChecking=no root@server.talk-about-it.ca "cd /var/www; \
             rm -rf /var/www/142aurora.ca; \
             rm -rf /var/www/git_142aurora.ca; \
             git clone --depth 1 git@github.com:lukebarone/142aurora.ca --separate-git-dir=/var/www/git_142aurora.ca; \
