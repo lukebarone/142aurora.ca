@@ -1,0 +1,17 @@
+name: Publish website
+on: push
+jobs:
+    publish:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Publish website
+          run: |
+            echo "${{ secrets.SSH_KEY }}" > /tmp/ssh-key
+            chmod 0600 /tmp/ssh-key
+            ssh -i /tmp/ssh-key -o StrictHostKeyChecking=no root@server.talk-about-it.ca "cd /var/www; \
+            rm -rf /var/www/142aurora.ca; \
+            rm -rf /var/www/git_142aurora.ca; \
+            git clone --depth 1 git@github.com:lukebarone/142aurora.ca --separate-git-dir=/var/www/git_142aurora.ca; \
+            cd /var/www/142aurora.ca/142aurora.ca; \
+            /snap/hugo/current/bin/hugo --source /var/www/142aurora.ca/142aurora.ca/"
+

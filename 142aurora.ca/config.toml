@@ -150,7 +150,7 @@ title = "NLCC 142 Aurora"
   description = "The volunteers in charge of our local corps and branch"
 
   [[params.team.item]]
-    name = "SLt(NL) Brendon Brown"
+    name = "Lt(NL) Ben Paladino"
     position = "Commanding Officer"
     description = "The Commanding Officer runs the corps locally, and is the direct officer representative to the local Branch."
     img = "img/user.png"
@@ -165,12 +165,12 @@ title = "NLCC 142 Aurora"
 #    whatsapp = "#"
 
   [[params.team.item]]
-    name = "Ms Kanina Nesbitt"
+    name = "Ms Robin Seguin"
     position = "Branch President"
     description = "The Branch President is the leader of the Branch. Kanina organizes the parent volunteers, and directs fundraising activities for the corps."
     img = "img/user.png"
     email = "princegeorge@bcmainland.ca"
-    telephone = "+12367920312"
+    telephone = "+12503015202"
 #    facebook = "#"
 #    twitter = "#"
 #    dribbble = "#"
@@ -180,7 +180,7 @@ title = "NLCC 142 Aurora"
 #    whatsapp = "#"
 
   [[params.team.item]]
-    name = "Ms Carolynne Burkeholder-James"
+    name = "Ms Alicia Fitzpatrick"
     position = "Navy League Chair"
     description = "The Navy League Chair is the Liason between the Officers who run the corps, and the Branch. Carolynne organizes and directs Navy League parent volunteers."
     img = "img/user.png"
