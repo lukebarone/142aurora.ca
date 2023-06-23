@@ -1,0 +1,3 @@
+[submodule "142aurora.ca/themes/hugo-icon"]
+	path = 142aurora.ca/themes/hugo-icon
+	url = https://github.com/SteveLane/hugo-icon.git
