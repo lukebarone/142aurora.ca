@@ -1,0 +1,231 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "/"
+languageCode = "en-CA"
+title = "NLCC 142 Aurora"
+
+# Metadata
+[params]
+  author = "Your name"
+  description = "Cool description"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "img/header-bg.jpg"
+  title = "Welcome to NLCC 142 Aurora"
+  description = "For children aged 9 to 11"
+
+# Navigation section
+[params.nav]
+  mission = "What we do"
+  services = "Services"
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  logo = "img/Corps Crest_transparentbg.jpg"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = false
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "marketing"
+    title = "Youth aged 9 to 11"
+    subtitle = "We accept youth in Prince George from their 9th birthday until they turn 12"
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "Come sail with us"
+    subtitle = "NLCC Aurora cadets get the opportunity to participate in a large mass-camp during the summer. They can learn to sail, marksmanship, and outdoor safety and survival"
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "strategy"
+    title = "Learn new skills"
+    subtitle = "Cadets learn about healthy living, citizenship, leadership, teamwork, and develop a sense of duty, self discipline, and respect for others."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = true
+  vidlink = "https://youtube.com/embed?v=mXy_fEvxL6I"
+  title = "What we do"
+  description = "Make friends! Have fun!"
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Summer Camp"
+    description = "In Stanley Park, Vancouver | Each year, we bring cadets to HMCS Discovery to participate in activities such as sailing, marksmanship and outdoor safety & survival"
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Parade Nights"
+    description = "On Monday evenings | While following a Ship’s Routine, cadets will participate in evening parades & classes, including citizenship, rope work, drill, seamanship and leadership"
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "St John's Ambulance First Aid"
+    description = "Stay calm and aid on | Cadets will learn practical skills to help someone who has become hurt or suddenly ill. They will learn St John’s Ambulance Emergency First Aid during their classes. Cadets will participate in a yearly competition in April"
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Drill Team"
+    description = "Put your self discipline to the test | Cadets will learn a drill routine to compete with in Vancouver every Spring. We focus on the Drill, Dress and Deportment while on the team"
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "Marksmanship"
+    description = "Safe air rifle handling | Cadets will learn proper rifle safety (including ACTS and PROVE from the RCMP PAL Program) while shooting air rifles in our range."
+
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "Come Sail with Us!"
+    description = "Are you ready to sign up? Send us an [email](mailto:contact@142aurora.ca) to get started!"
+
+# Work section
+[params.work]
+  enable = false
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Out Leadership"
+  description = "The volunteers in charge of our local corps and branch"
+
+  [[params.team.item]]
+    name = "SLt(NL) Brendon Brown"
+    position = "Commanding Officer"
+    description = "The Commanding Officer runs the corps locally, and is the direct officer representative to the local Branch."
+    img = "img/user.png"
+    email = "contact@142aurora.ca"
+    telephone = "+12505630142"
+#    facebook = "#"
+#    twitter = "#"
+#    dribbble = "#"
+#    instagram = "#"
+#    github = "#"
+#    linkedin = "#"
+#    whatsapp = "#"
+
+  [[params.team.item]]
+    name = "Ms Kanina Nesbitt"
+    position = "Branch President"
+    description = "The Branch President is the leader of the Branch. Kanina organizes the parent volunteers, and directs fundraising activities for the corps."
+    img = "img/user.png"
+    email = "princegeorge@bcmainland.ca"
+    telephone = "+12367920312"
+#    facebook = "#"
+#    twitter = "#"
+#    dribbble = "#"
+#    instagram = "#"
+#    github = "#"
+#    linkedin = "#"
+#    whatsapp = "#"
+
+  [[params.team.item]]
+    name = "Ms Carolynne Burkeholder-James"
+    position = "Navy League Chair"
+    description = "The Navy League Chair is the Liason between the Officers who run the corps, and the Branch. Carolynne organizes and directs Navy League parent volunteers."
+    img = "img/user.png"
+    email = "pg-nlchair@bcmainland.ca"
+#    telephone = "#"
+#    facebook = "#"
+#    twitter = "#"
+#    dribbble = "#"
+#    instagram = "#"
+#    whatsapp = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   email = "#"
+  #   telephone = "#"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+  #   whatsapp = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Contact Us"
+  message = "You can use the form below to email us directly"
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+#  github = "#"
+#  twitter = "#"
+  facebook = "https://www.facebook.com/142aurora"
+#  vine = "#"
+#  linkedin = "#"
+#  instagram = "#"
+  
